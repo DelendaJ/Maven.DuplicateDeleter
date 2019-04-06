@@ -22,7 +22,7 @@ public final class IntegerDuplicateDeleter extends DuplicateDeleter<Integer> {
     @Override
     public Integer[] removeDuplicatesExactly(int exactNumberOfDuplications) {
 
-        return null;
+        return super.removeDuplicatesExactly(exactNumberOfDuplications);
     }
 
 

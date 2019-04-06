@@ -11,11 +11,12 @@ public final class StringDuplicateDeleter extends DuplicateDeleter<String> {
 
     @Override
     public String[] removeDuplicates(int maxNumberOfDuplications) {
-        return new String[0];
+
+        return super.removeDuplicates(maxNumberOfDuplications);
     }
 
     @Override
     public String[] removeDuplicatesExactly(int exactNumberOfDuplications) {
-        return new String[0];
+        return super.removeDuplicatesExactly(exactNumberOfDuplications);
     }
 }
